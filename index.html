@@ -5,146 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>David Indiongco's Personal Website</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <h1>David Indiongco</h1>
-          <i>Software Developer</i>
-          <p>GitHub: <a href="https://github.com/dindiongco">dindiongco</a></p>
-          <p>
-            A Software Developer with a passion for creating applications that
-            make life <strong>better</strong>.
-          </p>
-        </td>
-      </tr>
-    </table>
-
-    <hr />
-    <h3>Qualifications</h3>
-    <ul>
-      <li>BSc Economics, University of Surrey</li>
-      <li>Certified Tester Foundation Level, ISTQB</li>
-      <li>Certified Solutions Architect (Associate), AWS</li>
-      <br />
-    </ul>
+    <div class="intro-container">
+      <img class="sloth-img" src="./images/cute-sloth.jpg" alt="" />
+      <div class="intro-text">
+        <h1>David Indiongco</h1>
+        <p class="intro">a Software Developer.</p>
+      </div>
+    </div>
     <hr />
 
-    <h3>Profile</h3>
-    <p>
-      My interest in the IT industry started mainly during my Economics course
-      at university. I was part of many group projects where I was always
-      learning about new technologies. I had to use software-based systems such
-      as MATLAB and STATA MP to complete my assignments. With Economics being an
-      analytical and data focused degree, I was able to practice these skills
-      and further improve upon them. My experience at university has helped me
-      realise that I enjoy working with the software aspect of technology and I
-      look forward to building upon my programming knowledge.
-    </p>
-    <br />
-    <hr />
+    <div class="middle-container">
+      <div class="profile">
+        <img src="" alt="" />
+        <h2>Profile</h2>
+        <p>
+          My interest in the IT industry started mainly during my Economics
+          course at university. I was part of many group projects where I was
+          always learning about new technologies. I had to use software-based
+          systems such as MATLAB and STATA MP to complete my assignments. With
+          Economics being an analytical and data focused degree, I was able to
+          practice these skills and further improve upon them. My experience at
+          university has helped me realise that I enjoy working with the
+          software aspect of technology and I look forward to building upon my
+          programming knowledge.
+        </p>
+      </div>
+      <hr />
+      <div class="profile">
+        <img src="" alt="" />
+        <h2>Qualifications</h2>
+        <ul>
+          <li>BSc Economics, University of Surrey</li>
+          <li>Certified Tester Foundation Level, ISTQB</li>
+          <li>Certified Solutions Architect (Associate), AWS</li>
+        </ul>
+      </div>
+      <hr />
+      <div class="profile">
+        <img src="" alt="" />
+        <h2>Technical Skills</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Technology Domain</th>
+              <th>Technologies and Tools</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Programming Languages</td>
+              <td>HTML, Java, CSS, Bootstrap, JavaScript (Angular), Python</td>
+            </tr>
+            <tr>
+              <td>Testing Technologies</td>
+              <td>JUnit, Selenium, SonarQube, Cucumber, Gherkin, JMeter</td>
+            </tr>
+            <tr>
+              <td>DevOps Technologies</td>
+              <td>Git, Azure DevOps (ADO)</td>
+            </tr>
+            <tr>
+              <td>Database Technologies</td>
+              <td>MySQL, H2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr />
+    </div>
 
-    <h3>Technical Skills</h3>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Technology Domain</th>
-          <th>Technologies and Tools</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Programming Languages</td>
-          <td>HTML, Java, CSS, Bootstrap, JavaScript (Angular), Python</td>
-        </tr>
-        <tr>
-          <td>Testing Technologies</td>
-          <td>JUnit, Selenium, SonarQube, Cucumber, Gherkin, JMeter</td>
-        </tr>
-        <tr>
-          <td>DevOps Technologies</td>
-          <td>Git, Azure DevOps (ADO)</td>
-        </tr>
-        <tr>
-          <td>Database Technologies</td>
-          <td>MySQL, H2</td>
-        </tr>
-      </tbody>
-    </table>
-    <br />
-    <hr />
-    <h3>Work Experience</h3>
-    <h4>QA Consulting - Consultant (06/2021 - 11/2021)</h4>
-    <strong>Individual Project – Inventory Management System [Week 6]</strong>
-    <p>
-      This project aimed at using Java to manipulate a MySQL database with the
-      use of a Back-end application. I used Junit and Mockito for unit testing
-      during the development process for quality assurance and it was useful for
-      the isolation of low-level issues so that my code can run smoothly without
-      errors. This project also involved Jira for implementing agile
-      methodologies such as sprints and Git for version control. The end project
-      is a working inventory-management system capable of tracking and
-      manipulating customer information, orders details and item data.
-    </p>
-    <strong>Individual Project – To Do Full Stack Application [Week 9]</strong>
-    <p>
-      This project aimed at combining Backend and Frontend technologies to
-      create a full stack application that has full CRUD functionality. I used
-      Spring Boot and Maven to build the application and used Java Spring
-      Framework to connect to a MySQL database. The Frontend was built using
-      HTML and CSS, setting up the API calls via JavaScript to retrieve the data
-      from my database. For quality assurance, I used Junit and Mockito for both
-      integration and unit testing, Selenium for the user-acceptance testing and
-      SonarQube for static analysis to ensure that my code is as bug-free as
-      possible.
-    </p>
-    <strong>Group Project – Choonz Full Stack Application [Week 12] </strong>
-    <p>
-      This group project aimed to produce a fully functioning Music Library
-      Application called Choonz. The application was to be made in a group which
-      was a great opportunity to implement agile methodologies such as Daily
-      stand-ups and be able to understand its benefits for the development of
-      applications. My role was to assist in building some of the Backend as
-      well as contributing to some of the implementation of the Frontend. I also
-      had a role in contributing towards testing in the form of integration
-      testing, user acceptance testing and non-functional testing. This project
-      allowed me to use many different testing technologies such as JMeter,
-      Cucumber and Gherkin as well as to improve upon the use of Junit and
-      Mockito. The final product was a fully functioning Music Library Web
-      Application that meets industry standard requirements for testing.
-    </p>
-    <h4>Infosys Ltd – Technology Associate</h4>
-    <p>
-      Progressing through my stream training, I further developed my knowledge
-      in key Spring and Spring Boot development modules. Some of the topics that
-      we covered include Spring Data and using the Rest API in Spring to
-      communicate to other applications. Furthermore, I am comfortable in
-      developing a complete backend with a functional database (MySQL). In
-      addition to this, I have completed my training in Angular and am able to
-      create a functional frontend with modules such as using Reactive forms
-      with validation for Users to add their details. Using Angular and Spring
-      boot, I have knowledge in developing a full stack application that
-      connects a singlepage application in Angular to a backend in Spring Boot
-      that connects to a Database in MySQL.
-    </p>
-    <strong>BP (Client) - Developer</strong>
-    <p>
-      For my first client project, I was assigned to be a Developer for BP. The
-      project I was assigned to used AWS Services to connect to other BP Teams'
-      endpoints and display their data visually. On top of this, we handled
-      error alerting to the teams when specific metrics were not met. This
-      project involved using Azure DevOps to maintain Agile Practices. This
-      project has allowed me to improve and develop my ability to use different
-      technologies and improved upon them.
-      <ul>Technologies used:
-        <li>SQL</li>
-        <li>Python</li>
-        <li>AWS Services such as Lambda, SQS, SNS, Kinesis Data Streams</li>
-        <li>ADO and Git for DevOps</li>
-        <li>Infosys Propriety Platform for UI/UX development of data dashboards</li>
-      </ul>
-    </p>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p>© 2022 David Indiongco</p>
+    </div>
   </body>
 </html>
