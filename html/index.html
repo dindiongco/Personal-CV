@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/Personal-CV/css/style.css" />
+    <link rel="icon" href="/Personal-CV/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="px-5">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"></a>
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mt-1"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid name-title">
+        <svg class="black-box" width="400" height="200">
+          <rect x="0" y="0" width="400" height="400" fill="black" />
+          <text class="name" text-anchor="middle" x="200" y="90">
+            David Indiongco
+          </text>
+          <text class="title" text-anchor="middle" x="200" y="120">
+            a Software Developer.
+          </text>
+          <style>
+            text {
+              fill: white;
+            }
+            .title {
+              font-size: 0.8rem;
+              font-style: italic;
+            }
+            .name {
+              font-size: 1.5rem;
+            }
+          </style>
+        </svg>
+      </div>
+      <div class="container position-relative about">
+        <div class="mt-5">
+          <p>
+            My interest in the IT industry started mainly during my Economics
+            course at university. I was part of many group projects where I was
+            always learning about new technologies. I had to use software-based
+            systems such as MATLAB and STATA MP to complete my assignments. With
+            Economics being an analytical and data focused degree, I was able to
+            practice these skills and further improve upon them. My experience
+            at university has helped me realise that I enjoy working with the
+            software aspect of technology and I look forward to building upon my
+            programming knowledge.
+          </p>
+        </div>
+      </div>
+
+      <div class="container skills mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Education</h5>
+                <ul class="card-text">
+                  <li>BSc Economics - University of Surrey</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Certifications</h5>
+                <ul class="card-text">
+                  <li>Solutions Architect Associate - AWS</li>
+                  <li>Foundation Level Tester - ISQTB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Skills</h5>
+                <ul class="card-text">
+                  <li>Python (Flask, Numpy, Pandas, Matplotlib)</li>
+                  <li>AWS (Lambda, EC2, SQS, SNS, Kinesis)</li>
+                  <li>Java</li>
+                  <li>JavaScript, CSS, HTML</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer text-center text-black">
+      <div class="container my-5">
+        <a
+          class="fa fa-linkedin footer-link"
+          href="https://www.linkedin.com/in/david-indiongco"
+          target="_blank"
+        >
+        </a>
+
+        <a
+          class="fa fa-github footer-link"
+          href="https://github.com/dindiongco"
+          target="_blank"
+        ></a>
+        <p class="copyright">© 2022 Copyright - All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
