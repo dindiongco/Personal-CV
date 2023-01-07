@@ -1,64 +1,128 @@
+html {
+    height:100%;
+}
+
 body {
     margin: 0;
     text-align: center;
     font-family: "Merriweather", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+strong, p {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: disc;
+}
+
+/* navbar */
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    animation: shake;
+    animation-duration: 0.5s;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.experience {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
-h1 {
+/* footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: white;
-    margin-top: 0;
-    font-size: 300%;
-    font-family: "Sacramento", serif;
+    text-align: center;
 }
 
-p {
-    line-height: 2;
+.footer-link {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
 }
 
-hr {
-    border: dotted #EAF6F6 6px;
-    border-bottom: none;
-    width: 4%;
-}
+/* svg  */
 
-th, td {
-    padding: 30px;
-    border-bottom: 1px solid #ddd;
-}
-
-tr:hover {
-    background-color: #82b1ff;
-}
-
-.intro {
-    width: 30%;
-    margin: auto;
-}
-
-.intro-container {
+text {
     color: white;
-    background-color: #82b1ff;
-    position: relative;
-    padding-top: 100px;
 }
 
-.middle-container {
-    margin: 100px 0;
-  }
-  
-.bottom-container {
-    background-color: #82b1ff;
-    padding: 50px 0 20px;
+.text {
+    color: white;
 }
 
-.intro-text {
-    position: relative;
-    bottom: 300px;
+.black-box {
+    border-radius: 10%;
+    animation: rounded;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
-.profile {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
+/* animation */
+
+@keyframes shake {
+    0% {
+        transform: rotate(-5deg);
+    }
+    20% {
+        transform: rotate(5deg);
+    }
+    40% {
+        transform: rotate(-5deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
+
+@keyframes rounded {
+    0% {
+        border-radius: 10%;
+    } 50% {
+        border-radius: 20%;
+    }
+    100% {
+        border: 50%;
+    }
+}
+
+/* Contact */
