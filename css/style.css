@@ -14,6 +14,10 @@ strong, p {
     margin-top: 1rem;
 }
 
+h3 {
+    margin: 1rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -40,7 +44,7 @@ main {
     flex-direction: column;
 }
 
-.card:hover {
+.card.about:hover {
     animation: shake;
     animation-duration: 0.5s;
 }
@@ -57,16 +61,53 @@ main {
     
 }
 
+/* accordion */
+
+.accordion {
+    color: black;
+    border-radius: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+.accordion-button {
+    color: black;
+}
+
+.accordion-button:visited(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: black;
+    color:#FFF ;
+    text-decoration: none;
+    border: hidden;
+    border-color: #FFF;
+    box-shadow: 0px;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 .1rem black;
+}
+
 /* footer */
 
-.footer {
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
-}
+} */
 
 .footer-link {
     height: 2rem;
@@ -95,19 +136,19 @@ text {
 
 @keyframes shake {
     0% {
-        transform: rotate(-5deg);
+        transform: rotate(-2deg);
     }
     20% {
-        transform: rotate(5deg);
+        transform: rotate(2deg);
     }
     40% {
-        transform: rotate(-5deg);
+        transform: rotate(-2deg);
     }
     60% {
-        transform: rotate(5deg);
+        transform: rotate(2deg);
     }
     80% {
-        transform: rotate(-5deg);
+        transform: rotate(-2deg);
     }
     100% {
         transform: rotate(0);
@@ -126,3 +167,12 @@ text {
 }
 
 /* Contact */
+
+.card.contact {
+    margin-top: 7rem;
+}
+
+.list-group-item.links:hover {
+    background-color: black;
+    color: #FFF;
+}
