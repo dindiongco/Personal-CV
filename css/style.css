@@ -176,3 +176,24 @@ text {
     background-color: black;
     color: #FFF;
 }
+
+.contact-container {
+    display: flex;
+}
+
+.img-fluid {
+    max-height: 800px;
+    max-width: 800px;
+}
+
+@media screen and (min-width: 576) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-fluid {
+        min-width: 200px;
+        min-height: 200px;
+    }
+}
