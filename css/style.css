@@ -182,8 +182,8 @@ text {
 }
 
 .img-fluid {
-    max-height: 800px;
-    max-width: 800px;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 @media screen and (min-width: 576) {
